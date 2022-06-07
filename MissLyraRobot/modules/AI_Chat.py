@@ -1,6 +1,6 @@
 # Copyright (C) 2021 Red-Aura & TeamDaisyX & HamkerCat
 
-# This file is part of Lyra (Telegram Bot)
+# This file is part of Diva (Telegram Bot)
 
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU Affero General Public License as
@@ -27,11 +27,11 @@ import aiohttp
 from googletrans import Translator as google_translator
 from pyrogram import filters
 
-from MissLyraRobot import BOT_ID
-from MissLyraRobot.ex_plugins.chatbot import add_chat, get_session, remove_chat
-from MissLyraRobot.function.inlinehelper import arq
-from MissLyraRobot.function.pluginhelpers import admins_only, edit_or_reply
-from MissLyraRobot.services.pyrogram import pbot as lyra
+from Diva1bot import BOT_ID
+from Diva1bot.ex_plugins.chatbot import add_chat, get_session, remove_chat
+from Diva1bot.function.inlinehelper import arq
+from Diva1bot.function.pluginhelpers import admins_only, edit_or_reply
+from Diva1bot.services.pyrogram import pbot as lyra
 
 translator = google_translator()
 
@@ -85,7 +85,7 @@ async def hmm(_, message):
             await lel.edit("Lyra AI Already Activated In This Chat")
             return
         await lel.edit(
-            f"Lyra AI Successfully Added For Users In The Chat {message.chat.id}"
+            f"Diva AI Successfully Added For Users In The Chat {message.chat.id}"
         )
 
     elif status == "OFF" or status == "off" or status == "Off":
@@ -95,7 +95,7 @@ async def hmm(_, message):
             await lel.edit("Lyra AI Was Not Activated In This Chat")
             return
         await lel.edit(
-            f"Lyra AI Successfully Deactivated For Users In The Chat {message.chat.id}"
+            f"Diva AI Successfully Deactivated For Users In The Chat {message.chat.id}"
         )
 
     elif status == "EN" or status == "en" or status == "english":
@@ -147,7 +147,7 @@ async def hmm(client, message):
 
         pro = response
         try:
-            await lyra.send_chat_action(message.chat.id, "typing")
+            await Diva.send_chat_action(message.chat.id, "typing")
             await message.reply_text(pro)
         except CFError:
             return
@@ -195,8 +195,8 @@ async def hmm(client, message):
                 return
         # test = emoji.demojize(test.strip())
 
-        test = test.replace("lyra", "Aco")
-        test = test.replace("lyra", "Aco")
+        test = test.replace("Diva", "Aco")
+        test = test.replace("Diva", "Aco")
         response = await lunaQuery(
             test, message.from_user.id if message.from_user else 0
         )
@@ -212,7 +212,7 @@ async def hmm(client, message):
             except:
                 return
         try:
-            await lyra.send_chat_action(message.chat.id, "typing")
+            await Diva.send_chat_action(message.chat.id, "typing")
             await message.reply_text(pro)
         except CFError:
             return
@@ -269,26 +269,26 @@ async def inuka(client, message):
     # test = emoji.demojize(test.strip())
 
     # Kang with the credits bitches @InukaASiTH
-    test = test.replace("lyra", "Aco")
-    test = test.replace("Lyra", "Aco")
+    test = test.replace("Diva", "Aco")
+    test = test.replace("Diva", "Aco")
 
     response = await lunaQuery(test, message.from_user.id if message.from_user else 0)
-    response = response.replace("Aco", "Lyra")
-    response = response.replace("aco", "Lyra")
+    response = response.replace("Aco", "Diva")
+    response = response.replace("aco", "Diva")
 
     pro = response
     if not "en" in lan and not lan == "":
         pro = translator.translate(pro, dest=lan)
         pro = pro.text
     try:
-        await lyra.send_chat_action(message.chat.id, "typing")
+        await Diva.send_chat_action(message.chat.id, "typing")
         await message.reply_text(pro)
     except CFError:
         return
 
 
 @lyra.on_message(
-    filters.regex("Lyra|lyra|Lyra|lyra|Lyra")
+    filters.regex("Diva|Diva|Diva|Diva|Diva")
     & ~filters.bot
     & ~filters.via_bot
     & ~filters.forwarded
@@ -346,8 +346,8 @@ async def inuka(client, message):
     test = test.replace("lyra", "Aco")
     test = test.replace("Lyra", "Aco")
     response = await lunaQuery(test, message.from_user.id if message.from_user else 0)
-    response = response.replace("Aco", "Lyra")
-    response = response.replace("aco", "Lyra")
+    response = response.replace("Aco", "Diva")
+    response = response.replace("aco", "Diva")
 
     pro = response
     if not "en" in lan and not lan == "":
@@ -357,7 +357,7 @@ async def inuka(client, message):
         except Exception:
             return
     try:
-        await lyra.send_chat_action(message.chat.id, "typing")
+        await Diva.send_chat_action(message.chat.id, "typing")
         await message.reply_text(pro)
     except CFError:
         return
@@ -372,7 +372,7 @@ Lyra AI 1.0 IS THE ONLY AI SYSTEM WHICH CAN DETECT & REPLY UPTO 200 LANGUAGES
  
  
 <b> Assistant </b>
- - /ask [question]: Ask question from lyra
+ - /ask [question]: Ask question from Diva
  - /ask [reply to voice note]: Get voice reply
  
 """
