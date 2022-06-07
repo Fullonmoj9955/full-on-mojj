@@ -4,23 +4,23 @@ class Config(object):
     # REQUIRED
     # Login to https://my.telegram.org and fill in these slots with the details given by it
 
-    API_ID = "6435225"  
-    API_HASH = "4e984ea35f854762dcde906dce426c2d"
-    TOKEN = "1240287427:AAFGwboI9iu83vKxDPIdPT0N1HVtXZm5uSc"
-    OWNER_ID = "936481432"
-    OWNER_USERNAME = "XeD_NitriC"
-    MONGO_DB_URI = "mongodb+srv://Nitric:Nitric@cluster0.plap4.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+    API_ID = "7262250"  
+    API_HASH = "07a185a62d8a3d127164197475533c4a"
+    TOKEN = "5353614138:AAFKQnDt9d8mwU8aAw4bSRpd4gzgQ2wGBeQ"
+    OWNER_ID = "5353614138"
+    OWNER_USERNAME = "itz_xoxo"
+    MONGO_DB_URI = "mongodb+srv://bot:bot@cluster0.febee.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
     MONGO_DB = "MissLyraRobot"
-    SUPPORT_CHAT = "XCodeSupport"
-    JOIN_LOGGER = "-1001774935713"
-    EVENT_LOGS = "-1001774935713"
-    ERROR_LOG = "-1001774935713"
+    SUPPORT_CHAT = "ttest_me"
+    JOIN_LOGGER = "-1001736567149"
+    EVENT_LOGS = "-1001736567149"
+    ERROR_LOG = "-1001736567149"
 
     # RECOMMENDED
-    INFOPIC = "https://telegra.ph/file/73337f3406d18b80a2683.jpg"   
+    INFOPIC = "https://telegra.ph/file/dac56ba4d9f84aff89a6c.jpg"   
     CF_API_KEY = ""
     LASTFM_API_KEY = ""
-    BOT_USERNAME = "MissLyraRobot"
+    BOT_USERNAME = "Diva1bot"
     WALL_API = ""
     OPENWEATHERMAP_ID = ""
     TEMP_DOWNLOAD_DIRECTORY = ""
@@ -28,14 +28,14 @@ class Config(object):
     TIME_API_KEY = ""
     CASH_API_KEY = ""
     REM_BG_API_KEY = ""
-    ARQ_API_KEY = "UIUXOY-NTKWDC-QHFFMD-DHHKVV-ARQ"
-    ARQ_API = "UIUXOY-NTKWDC-QHFFMD-DHHKVV-ARQ"
+    ARQ_API_KEY = "ASIOAB-SAODKO-MLCITA-XOSMGD-ARQ"
+    ARQ_API = "ASIOAB-SAODKO-MLCITA-XOSMGD-ARQ"
     ARQ_API_URL = "aww"
     HEROKU_APP_NAME = ""
-    HEROKU_API_KEY = ""
-    BOT_ID = "1901951380"
-    STRING_SESSION = "1BVtsOJsBu6ApoSjs00-4Gk0Z2iINDhinQOi_HZnedKddpSkbZrqiRL-xr6MPreYXJ8TvU46VxV2A9uPWjJGmtZBwJn6dEWTB23x0UJGbDwDnIrXqHyboWCSsfe0xQJAqVYvZUB0v0JZVNNpp_RUqw7Y7CRLvkXg8kw-IDv_hJcR1nnYIucxpF4Bc_0kjmroNaO4Qwn2Ci-9r5j86MKCUwkGJO3r8rEeDArGrFgOy5KYex_x5w-K8FK2Gm8HKVvWphFDCb7yf57n15qFKGPbnSENfeudlubK7Ei4S8LwIDyrpQokOLnK6C3s1-adZgrBFOO9l8B2EikY-aoBLCbIkncuMs4IsLqM="
-    SESSION_STRING = "1BVtsOJsBu6ApoSjs00-4Gk0Z2iINDhinQOi_HZnedKddpSkbZrqiRL-xr6MPreYXJ8TvU46VxV2A9uPWjJGmtZBwJn6dEWTB23x0UJGbDwDnIrXqHyboWCSsfe0xQJAqVYvZUB0v0JZVNNpp_RUqw7Y7CRLvkXg8kw-IDv_hJcR1nnYIucxpF4Bc_0kjmroNaO4Qwn2Ci-9r5j86MKCUwkGJO3r8rEeDArGrFgOy5KYex_x5w-K8FK2Gm8HKVvWphFDCb7yf57n15qFKGPbnSENfeudlubK7Ei4S8LwIDyrpQokOLnK6C3s1-adZgrBFOO9l8B2EikY-aoBLCbIkncuMs4IsLqM="
+    HEROKU_API_KEY = "24a86373-653c-446d-99ac-826ae6973c36"
+    BOT_ID = "5353614138"
+    STRING_SESSION = "1BVtsOHoBu6iLk0M2610cOfr5LZ_pGduYiiEv3i7I-nfSUhjQha9nCQ305qSn9VsRtM_ZHSLT2x6b4Sqw8b6iy3XlbJ3R1MWmWhz796mlEAEZJYgs6Yr4ijurw-P1KsSsdc8bS-c5aodzGs6BH2161Ot9Q413BF4StbeKu_ME68U5tGpoPfIpP5pLLzev2CocnmsHMvpXm3ldzM-jFx1d0wdx6y3BjjqOjQJnAP2eIbGMHhjNGwWq-kwEnlmdZD09BPj15c3eixK3B4shBfpEKr2UNl7SQBsxoQluldgDPK26Kqgw4QtpUFMff4H_jPHVI7suUFKt11gQXhXo6GcWXEyIcuCtKdg="
+    SESSION_STRING = "1BVtsOHoBu6iLk0M2610cOfr5LZ_pGduYiiEv3i7I-nfSUhjQha9nCQ305qSn9VsRtM_ZHSLT2x6b4Sqw8b6iy3XlbJ3R1MWmWhz796mlEAEZJYgs6Yr4ijurw-P1KsSsdc8bS-c5aodzGs6BH2161Ot9Q413BF4StbeKu_ME68U5tGpoPfIpP5pLLzev2CocnmsHMvpXm3ldzM-jFx1d0wdx6y3BjjqOjQJnAP2eIbGMHhjNGwWq-kwEnlmdZD09BPj15c3eixK3B4shBfpEKr2UNl7SQBsxoQluldgDPK26Kqgw4QtpUFMff4H_jPHVI7suUFKt11gQXhXo6GcWXEyIcuCtKdg="
     SQLALCHEMY_DATABASE_URI = "postgres://xkncmhpw:9f1Z_dF2OMcgWejkDDsJuaPq4MdkSu5u@lallah.db.elephantsql.com/xkncmhpw"
     DATABASE_URL = "postgres://xkncmhpw:9f1Z_dF2OMcgWejkDDsJuaPq4MdkSu5u@lallah.db.elephantsql.com/xkncmhpw"
     LOAD = []
@@ -48,14 +48,14 @@ class Config(object):
 
     # OPTIONAL
     ##List of id's -  (not usernames) for users which have sudo access to the bot.
-    DRAGONS = "1669178360"
+    DRAGONS = "1844469309"
     ##List of id's - (not usernames) for developers who will have the same perms as the owner
-    DEV_USERS = "1669178360"
+    DEV_USERS = "1844469309"
     ##List of id's (not usernames) for users which are allowed to gban, but can also be banned.
-    DEMONS = "1669178360"
+    DEMONS = "1844469309"
     # List of id's (not usernames) for users which WONT be banned/kicked by the bot.
-    TIGERS = "1669178360"
-    WOLVES = "1669178360"
+    TIGERS = "1844469309"
+    WOLVES = "1844469309"
     DONATION_LINK = None  # EG, paypal
     CERT_PATH = None
     PORT = 5000
