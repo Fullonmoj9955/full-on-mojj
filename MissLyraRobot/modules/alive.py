@@ -22,9 +22,9 @@ async def awake(event):
     TEXT += f"⚪ **Pyrogram Version :** `{pyrover}` \n\n"
     TEXT += "**Thanku  🖤**"
     BUTTON = [
-        [
-            Button.url("нєℓρ", "https://t.me/Diva1bot?start=help"),
-            Button.url("ѕυρρσят​", "https://t.me/ttest_me"),
-        ]
-    ]
+
+           
+
+
+
     await tbot.send_file(event.chat_id, PHOTO, caption=TEXT, buttons=BUTTON)
