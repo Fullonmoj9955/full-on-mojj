@@ -6,7 +6,7 @@ class Config(object):
 
     API_ID = "7262250"  
     API_HASH = "07a185a62d8a3d127164197475533c4a"
-    TOKEN = "5353614138:AAFKQnDt9d8mwU8aAw4bSRpd4gzgQ2wGBeQ"
+    TOKEN = "5528054140:AAGYclMKyb86cFJ0dKiaMEJyD8JE2cqezDE"
     OWNER_ID = "5353614138"
     OWNER_USERNAME = "itz_xoxo"
     MONGO_DB_URI = "mongodb+srv://bot:bot@cluster0.febee.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
@@ -33,9 +33,9 @@ class Config(object):
     ARQ_API_URL = "aww"
     HEROKU_APP_NAME = ""
     HEROKU_API_KEY = "24a86373-653c-446d-99ac-826ae6973c36"
-    BOT_ID = "5353614138"
-    STRING_SESSION = "1BVtsOHoBu6iLk0M2610cOfr5LZ_pGduYiiEv3i7I-nfSUhjQha9nCQ305qSn9VsRtM_ZHSLT2x6b4Sqw8b6iy3XlbJ3R1MWmWhz796mlEAEZJYgs6Yr4ijurw-P1KsSsdc8bS-c5aodzGs6BH2161Ot9Q413BF4StbeKu_ME68U5tGpoPfIpP5pLLzev2CocnmsHMvpXm3ldzM-jFx1d0wdx6y3BjjqOjQJnAP2eIbGMHhjNGwWq-kwEnlmdZD09BPj15c3eixK3B4shBfpEKr2UNl7SQBsxoQluldgDPK26Kqgw4QtpUFMff4H_jPHVI7suUFKt11gQXhXo6GcWXEyIcuCtKdg="
-    SESSION_STRING = "1BVtsOHoBu6iLk0M2610cOfr5LZ_pGduYiiEv3i7I-nfSUhjQha9nCQ305qSn9VsRtM_ZHSLT2x6b4Sqw8b6iy3XlbJ3R1MWmWhz796mlEAEZJYgs6Yr4ijurw-P1KsSsdc8bS-c5aodzGs6BH2161Ot9Q413BF4StbeKu_ME68U5tGpoPfIpP5pLLzev2CocnmsHMvpXm3ldzM-jFx1d0wdx6y3BjjqOjQJnAP2eIbGMHhjNGwWq-kwEnlmdZD09BPj15c3eixK3B4shBfpEKr2UNl7SQBsxoQluldgDPK26Kqgw4QtpUFMff4H_jPHVI7suUFKt11gQXhXo6GcWXEyIcuCtKdg="
+    BOT_ID = "5528054140"
+    STRING_SESSION = "1BVtsOHoBu5Jj5mHdqyudrBd3lnHF2imbCXyTn-mfu6fjHdmsBUITHPvlnFK1GCHFFVQQ0llKRlvNFJ6A1jQcM3iMhlfXHPtv9D2iFWY979wfRa3FGpHdD4RcP2FSlnp86EjpK2AcoGdfhty7sOjmvWHWvWMIaUbSV97dfxlnm8xgYHJXT-KUSHvvOxSuS_QbnQXRMK1cvHIRU8hqUzF0Pp3lTAXz-gjF-N2XzekQXJG13rNgxErsceYn0tOdkeHvZTlLKoOfrpXguB9Swml_1DytCC-FOUsySl0gsXu-j4Jl8MAl8f7iZCwsJ0MUcb_9OU25UDAAiOR55Kvz26azuAq72PKUCUE="
+    SESSION_STRING = "1BVtsOHoBu5Jj5mHdqyudrBd3lnHF2imbCXyTn-mfu6fjHdmsBUITHPvlnFK1GCHFFVQQ0llKRlvNFJ6A1jQcM3iMhlfXHPtv9D2iFWY979wfRa3FGpHdD4RcP2FSlnp86EjpK2AcoGdfhty7sOjmvWHWvWMIaUbSV97dfxlnm8xgYHJXT-KUSHvvOxSuS_QbnQXRMK1cvHIRU8hqUzF0Pp3lTAXz-gjF-N2XzekQXJG13rNgxErsceYn0tOdkeHvZTlLKoOfrpXguB9Swml_1DytCC-FOUsySl0gsXu-j4Jl8MAl8f7iZCwsJ0MUcb_9OU25UDAAiOR55Kvz26azuAq72PKUCUE="
     SQLALCHEMY_DATABASE_URI = "postgres://xkncmhpw:9f1Z_dF2OMcgWejkDDsJuaPq4MdkSu5u@lallah.db.elephantsql.com/xkncmhpw"
     DATABASE_URL = "postgres://xkncmhpw:9f1Z_dF2OMcgWejkDDsJuaPq4MdkSu5u@lallah.db.elephantsql.com/xkncmhpw"
     LOAD = []
