@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://telegra.ph/file/73337f3406d18b80a2683.jpg">
+  <img src="https://telegra.ph/file/dac56ba4d9f84aff89a6c.jpg">
 </p>
 
 <h1 align="center"><b> Miss Lyra Robot </b></h1>
@@ -12,7 +12,7 @@
 
 <p align="center"><a href="https://t.me/MissLyraRobot"><img src="(https://telegra.ph/file/73337f3406d18b80a2683.jpg)" width="400"></a></p>
 
-## Available on Telegram as [@MissLyraRobot](https://t.me/MissLyraRobot)
+## Available on Telegram as [@Diva1bot](https://t.me/MissLyraRobot)
 
 # ❤️ Support
 <a href="https://t.me/TheXCodeTeam"><img src="https://img.shields.io/badge/Join-Telegram%20Channel-red.svg?logo=Telegram"></a>
@@ -30,6 +30,6 @@ The easiest way to deploy this Bot is via Heroku.
 ```
 <𝗡𝗶𝘁𝗿𝗶𝗰'𝗫𝗱/>
 ```
-
+❛𝗔𝘃𝗶𝗶 𓆩 🦅 𓆪
  
 ```
