@@ -5,26 +5,26 @@ from telethon import events, Button
 from telegram import __version__ as telever
 from telethon import __version__ as tlhver
 from pyrogram import __version__ as pyrover
-from MissLyraRobot.events import register
-from MissLyraRobot import telethn as tbot
+from Diva1bot.events import register
+from Diva1bot import telethn as tbot
 
 
-PHOTO = "https://telegra.ph/file/73337f3406d18b80a2683.jpg"
+PHOTO = "https://telegra.ph/file/914822a4e04ae926eaf08.jpg"
 
 
 @register(pattern=("/alive"))
 async def awake(event):
-    TEXT = f"**Hi [{event.sender.first_name}](tg://user?id={event.sender.id}), I'm Miss Lyra Robot.** \n\n"
-    TEXT += "⚪ **I'm Working Properly** \n\n"
-    TEXT += f"⚪ **Managed By : [<𝗡𝗶𝘁𝗿𝗶𝗰'𝗫𝗱/>](https://t.me/XeD_NitriC)** \n\n"
+    TEXT = f"**Hey [{event.sender.first_name}](tg://user?id={event.sender.id}), I'm Diva.** \n\n"
+    TEXT += "⚪ **I'm alive** \n\n"
+    TEXT += f"⚪ **Managed By : [<✘𝗼 ✘𝗼 | 𝗔𝘃𝗶𝗶>](https://t.me/itz_xoxo)** \n\n"
     TEXT += f"⚪ **Library Version :** `{telever}` \n\n"
     TEXT += f"⚪ **Telethon Version :** `{tlhver}` \n\n"
     TEXT += f"⚪ **Pyrogram Version :** `{pyrover}` \n\n"
-    TEXT += "**Thanks For Adding Me Here ❤️**"
+    TEXT += "**Thanku  🖤**"
     BUTTON = [
         [
-            Button.url("ʜᴇʟᴘ​", "https://t.me/MissLyraRobot?start=help"),
-            Button.url("sᴜᴘᴘᴏʀᴛ​", "https://t.me/XCodeSupport"),
+            Button.url("нєℓρ", "https://t.me/Diva1bot?start=help"),
+            Button.url("ѕυρρσят​", "https://t.me/ttest_me"),
         ]
     ]
     await tbot.send_file(event.chat_id, PHOTO, caption=TEXT, buttons=BUTTON)
