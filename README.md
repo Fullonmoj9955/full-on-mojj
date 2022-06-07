@@ -2,7 +2,7 @@
   <img src="https://telegra.ph/file/dac56ba4d9f84aff89a6c.jpg">
 </p>
 
-<h1 align="center"><b> Miss Lyra Robot </b></h1>
+<h1 align="center"><b> Diva </b></h1>
 
 <h4 align="center">A Powerful, Smart And Simple Group Manager <br> ... Written with AioGram , Pyrogram and Telethon...</h4>
 <p align='center'>
