@@ -20,11 +20,6 @@ async def awake(event):
     TEXT += f"⚪ **Library Version :** `{telever}` \n\n"
     TEXT += f"⚪ **Telethon Version :** `{tlhver}` \n\n"
     TEXT += f"⚪ **Pyrogram Version :** `{pyrover}` \n\n"
-    TEXT += "**Thanku  🖤**"
-    BUTTON = [
+    TEXT += "**Thanku  ✨🖤**"
 
-           
-
-
-
-    await tbot.send_file(event.chat_id, PHOTO, caption=TEXT, buttons=BUTTON)
+    await tbot.send_file(event.chat_id, PHOTO, caption=TEXT)
