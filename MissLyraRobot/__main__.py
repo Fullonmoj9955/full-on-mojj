@@ -99,27 +99,27 @@ I have lots of handy features such as:
 buttons = [
     [
         InlineKeyboardButton(
-            text=" Add Me  ", url="t.me/diva1bot?startgroup=new"),
+            text="✚ Click here to Summon Me", url="t.me/diva1bot?startgroup=new"),
     ],
     [                  
                        InlineKeyboardButton(
-                             text="Support🔥",
+                             text="📨 Support",
                              url=f"https://t.me/M8N_SUPPORT"),
                        InlineKeyboardButton(
-                             text="Updates📣",
+                             text="📨 Updates",
                              url=f"https://t.me/M8N_OFFICIAL"),
     ],
     [
         InlineKeyboardButton(
-              text="Help",
+              text="🗂 Commands",
               callback_data="help_back"),
         InlineKeyboardButton(
-              text="About",
+              text="🏳‍🌈 About",
               callback_data="misslyra_"),   
     ],
     [
         InlineKeyboardButton(
-            text="Donate 🌹", 
+            text="📦 Source Code", 
             callback_data="misslyra_donate"),
     ],
 
