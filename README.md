@@ -19,7 +19,7 @@
 <a href="https://t.me/ttest_me"><img src="https://img.shields.io/badge/Join-Telegram%20Group-blue.svg?logo=telegram"></a>
 
 
-## 🇮🇳 Heroku Deploy 🇮🇳
+## 👉 Heroku Deploy 
 The easiest way to deploy this Bot is via Heroku.
 
 <p align="left"><a href="https://heroku.com/deploy?template=https://github.com/Xoxomy9955/Diva_orignal"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-black?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
@@ -29,7 +29,6 @@ The easiest way to deploy this Bot is via Heroku.
 ## CREDIT
 ```
 <𝗡𝗶𝘁𝗿𝗶𝗰'𝗫𝗱/>
-```
-❛𝗔𝘃𝗶𝗶 𓆩 🦅 𓆪
+ ❛𝗔𝘃𝗶𝗶 𓆩 🦅 𓆪
  
 ```
