@@ -60,17 +60,17 @@ async def fetch(url):
         return
 
 
-lyra_chats = []
+Diva_chats = []
 en_chats = []
 # AI Chat (C) 2020-2021 by @InukaAsith
 
 
-@lyra.on_message(
+@diva.on_message(
     filters.command("chatbot") & ~filters.edited & ~filters.bot & ~filters.private
 )
 @admins_only
 async def hmm(_, message):
-    global lyra_chats
+    global diva_chats
     if len(message.command) != 2:
         await message.reply_text(
             "I only recognize `/chatbot on` and /chatbot `off only`"
@@ -82,7 +82,7 @@ async def hmm(_, message):
         lel = await edit_or_reply(message, "`Processing...`")
         lol = add_chat(int(message.chat.id))
         if not lol:
-            await lel.edit("Lyra AI Already Activated In This Chat")
+            await lel.edit("Diva AI Already Activated In This Chat")
             return
         await lel.edit(
             f"Diva AI Successfully Added For Users In The Chat {message.chat.id}"
@@ -92,7 +92,7 @@ async def hmm(_, message):
         lel = await edit_or_reply(message, "`Processing...`")
         Escobar = remove_chat(int(message.chat.id))
         if not Escobar:
-            await lel.edit("Lyra AI Was Not Activated In This Chat")
+            await lel.edit("Diva AI Was Not Activated In This Chat")
             return
         await lel.edit(
             f"Diva AI Successfully Deactivated For Users In The Chat {message.chat.id}"
@@ -111,7 +111,7 @@ async def hmm(_, message):
         )
 
 
-@lyra.on_message(
+@diva.on_message(
     filters.text
     & filters.reply
     & ~filters.bot
@@ -218,7 +218,7 @@ async def hmm(client, message):
             return
 
 
-@lyra.on_message(
+@diva.on_message(
     filters.text & filters.private & ~filters.edited & filters.reply & ~filters.bot
 )
 async def inuka(client, message):
@@ -287,7 +287,7 @@ async def inuka(client, message):
         return
 
 
-@lyra.on_message(
+@diva.on_message(
     filters.regex("Diva|Diva|Diva|Diva|Diva")
     & ~filters.bot
     & ~filters.via_bot
