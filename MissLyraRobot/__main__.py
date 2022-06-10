@@ -81,9 +81,9 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-────「 [Miss Lyra Robot](https://telegra.ph/file/73337f3406d18b80a2683.jpg) 」────
+────「 [Diva Original](https://telegra.ph/file/05171f0bdbfc7b998598a.jpg) 」────
 ʜᴇʏ! {}
-ɪ ᴀᴍ Lyra Robot ᴀɴ ᴀɴɪᴍᴇ ᴛʜᴇᴍᴇᴅ ᴀᴅᴠᴀɴᴄᴇ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ᴡɪᴛʜ ᴀ ʟᴏᴛ ᴏғ sᴘᴇᴄɪᴀʟɪᴛʏ.
+ɪ ᴀᴍ Diva Robot ᴀɴ ᴀɴɪᴍᴇ ᴛʜᴇᴍᴇᴅ ᴀᴅᴠᴀɴᴄᴇ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ᴡɪᴛʜ ᴀ ʟᴏᴛ ᴏғ sᴘᴇᴄɪᴀʟɪᴛʏ.
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
 I have lots of handy features such as:
 ‣ Warning system
@@ -99,15 +99,15 @@ I have lots of handy features such as:
 buttons = [
     [
         InlineKeyboardButton(
-            text="🥀 Add To Your Group 🥀", url="t.me/MissLyraRobot?startgroup=new"),
+            text=" Add Me  ", url="t.me/diva1bot?startgroup=new"),
     ],
     [                  
                        InlineKeyboardButton(
                              text="Support🔥",
-                             url=f"https://t.me/{SUPPORT_CHAT}"),
+                             url=f"https://t.me/M8N_SUPPORT"),
                        InlineKeyboardButton(
                              text="Updates📣",
-                             url=f"https://t.me/TheXCodeTeam"),
+                             url=f"https://t.me/M8N_OFFICIAL"),
     ],
     [
         InlineKeyboardButton(
