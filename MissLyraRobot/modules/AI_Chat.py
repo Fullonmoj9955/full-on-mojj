@@ -27,11 +27,11 @@ import aiohttp
 from googletrans import Translator as google_translator
 from pyrogram import filters
 
-from MissLyraRobot import BOT_ID
-from MissLyraRobot.ex_plugins.chatbot import add_chat, get_session, remove_chat
-from MissLyraRobot.function.inlinehelper import arq
-from MissLyraRobot.function.pluginhelpers import admins_only, edit_or_reply
-from MissLyraRobot.services.pyrogram import pbot as lyra
+from Diva1bot import BOT_ID
+from Diva1bot.ex_plugins.chatbot import add_chat, get_session, remove_chat
+from Diva1bot.function.inlinehelper import arq
+from Diva1bot.function.pluginhelpers import admins_only, edit_or_reply
+from Diva1bot.services.pyrogram import pbot as Diva
 
 translator = google_translator()
 
@@ -137,13 +137,13 @@ async def hmm(client, message):
         message.continue_propagation()
     if chat_id in en_chats:
         test = msg
-        test = test.replace("lyra", "Aco")
-        test = test.replace("lyra", "Aco")
+        test = test.replace("diva", "Aco")
+        test = test.replace("diva", "Aco")
         response = await lunaQuery(
             test, message.from_user.id if message.from_user else 0
         )
-        response = response.replace("Aco", "Lyra")
-        response = response.replace("aco", "Lyra")
+        response = response.replace("Aco", "Diva")
+        response = response.replace("aco", "Diva")
 
         pro = response
         try:
@@ -200,10 +200,10 @@ async def hmm(client, message):
         response = await lunaQuery(
             test, message.from_user.id if message.from_user else 0
         )
-        response = response.replace("Aco", "Lyra")
-        response = response.replace("aco", "Lyra")
-        response = response.replace("Luna", "Lyra")
-        response = response.replace("luna", "Lyra")
+        response = response.replace("Aco", "Diva")
+        response = response.replace("aco", "Diva")
+        response = response.replace("Luna", "Diva")
+        response = response.replace("luna", "Diva")
         pro = response
         if not "en" in lan and not lan == "":
             try:
@@ -343,8 +343,8 @@ async def inuka(client, message):
 
     # test = emoji.demojize(test.strip())
 
-    test = test.replace("lyra", "Aco")
-    test = test.replace("Lyra", "Aco")
+    test = test.replace("diva", "Aco")
+    test = test.replace("Diva", "Aco")
     response = await lunaQuery(test, message.from_user.id if message.from_user else 0)
     response = response.replace("Aco", "Diva")
     response = response.replace("aco", "Diva")
