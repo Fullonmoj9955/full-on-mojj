@@ -81,9 +81,9 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-────「 [Diva Original](https://telegra.ph/file/05171f0bdbfc7b998598a.jpg) 」────
+────「 [☠☠ KHOPDAAL ☠☠](https://telegra.ph/file/4baa436aac44b1160fe62.jpg) 」────
 ʜᴇʏ! {}
-ɪ ᴀᴍ Diva Robot ᴀɴ ᴀɴɪᴍᴇ ᴛʜᴇᴍᴇᴅ ᴀᴅᴠᴀɴᴄᴇ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ᴡɪᴛʜ ᴀ ʟᴏᴛ ᴏғ sᴘᴇᴄɪᴀʟɪᴛʏ.
+ɪ ᴀᴍ Full on mojj Robot ᴀɴ ᴀɴɪᴍᴇ ᴛʜᴇᴍᴇᴅ ᴀᴅᴠᴀɴᴄᴇ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ᴡɪᴛʜ ᴀ ʟᴏᴛ ᴏғ sᴘᴇᴄɪᴀʟɪᴛʏ.
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
 I have lots of handy features such as:
 ‣ Warning system
@@ -99,7 +99,7 @@ I have lots of handy features such as:
 buttons = [
     [
         InlineKeyboardButton(
-            text="✚ Click here to Summon Me", url="t.me/diva1bot?startgroup=new"),
+            text="✚ Click here to Summon Me", url="t.me/FULLONMOJJ_BOT?startgroup=new"),
     ],
     [                  
                        InlineKeyboardButton(
@@ -131,8 +131,8 @@ Click on the button bellow to get description about specifics command."""
 
 HELP_MSG = "Click the button below to get help menu in your pm."
 DONATE_STRING = """Contact to **@XeD_NitriC**"""
-HELP_IMG = "https://telegra.ph/file/73337f3406d18b80a2683.jpg"
-GROUP_IMG = "https://telegra.ph/file/73337f3406d18b80a2683.jpg"
+HELP_IMG = "https://telegra.ph/file/4baa436aac44b1160fe62.jpg"
+GROUP_IMG = "https://telegra.ph/file/4baa436aac44b1160fe62.jpg"
 
 
 
