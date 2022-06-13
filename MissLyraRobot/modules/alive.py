@@ -9,14 +9,14 @@ from MissLyraRobot.events import register
 from MissLyraRobot import telethn as tbot
 
 
-PHOTO = "https://telegra.ph/file/914822a4e04ae926eaf08.jpg"
+PHOTO = "https://telegra.ph/file/290f2dd056aec4fd19c3e.jpg"
 
 
 @register(pattern=("/alive"))
 async def awake(event):
-    TEXT = f"**Hey [{event.sender.first_name}](tg://user?id={event.sender.id}), I'm Diva1bot.** \n\n"
+    TEXT = f"**Hey [{event.sender.first_name}](tg://user?id={event.sender.id}), I'm FULLONMOJJ_BOT.** \n\n"
     TEXT += "⚪ **I'm alive** \n\n"
-    TEXT += f"⚪ **Managed By : [<✘𝗼✘𝗼𝗔𝘃𝗶𝗶>](https://t.me/itz_xoxo)** \n\n"
+    TEXT += f"⚪ **Managed By : [<༒☬PANDIT ☬JI ༒>](https://t.me/Panditji097)** \n\n"
     TEXT += f"⚪ **Library Version :** `{telever}` \n\n"
     TEXT += f"⚪ **Telethon Version :** `{tlhver}` \n\n"
     TEXT += f"⚪ **Pyrogram Version :** `{pyrover}` \n\n"
@@ -24,7 +24,7 @@ async def awake(event):
     BUTTON = [
         [
             Button.url("ʜᴇʟᴘ​", "https://t.me/Diva1bot?start=help"),
-            Button.url("ѕᴜᴘᴘᴏʀᴛ​", "https://t.me/M8N_SUPPORT"),
+            Button.url("ѕᴜᴘᴘᴏʀᴛ​", "https://t.me/panditji021"),
         ]
     ]
     await tbot.send_file(event.chat_id, PHOTO, caption=TEXT)
