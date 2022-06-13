@@ -27,11 +27,11 @@ import aiohttp
 from googletrans import Translator as google_translator
 from pyrogram import filters
 
-from Diva1bot import BOT_ID
-from Diva1bot.ex_plugins.chatbot import add_chat, get_session, remove_chat
-from Diva1bot.function.inlinehelper import arq
-from Diva1bot.function.pluginhelpers import admins_only, edit_or_reply
-from Diva1bot.services.pyrogram import pbot as Diva
+from FULLONMOJJ_BOT import BOT_ID
+from FULLONMOJJ_BOT.ex_plugins.chatbot import add_chat, get_session, remove_chat
+from FULLONMOJJ_BOT.function.inlinehelper import arq
+from FULLONMOJJ_BOT.function.pluginhelpers import admins_only, edit_or_reply
+from FULLONMOJJ_BOT.services.pyrogram import pbot as Diva
 
 translator = google_translator()
 
@@ -60,17 +60,17 @@ async def fetch(url):
         return
 
 
-Diva_chats = []
+Fullonmojj_chats = []
 en_chats = []
 # AI Chat (C) 2020-2021 by @InukaAsith
 
 
-@diva.on_message(
+@fullonmojj.on_message(
     filters.command("chatbot") & ~filters.edited & ~filters.bot & ~filters.private
 )
 @admins_only
 async def hmm(_, message):
-    global diva_chats
+    global fullonmojj_chats
     if len(message.command) != 2:
         await message.reply_text(
             "I only recognize `/chatbot on` and /chatbot `off only`"
@@ -82,20 +82,20 @@ async def hmm(_, message):
         lel = await edit_or_reply(message, "`Processing...`")
         lol = add_chat(int(message.chat.id))
         if not lol:
-            await lel.edit("Diva AI Already Activated In This Chat")
+            await lel.edit("Full ON MOJJ AI Already Activated In This Chat")
             return
         await lel.edit(
-            f"Diva AI Successfully Added For Users In The Chat {message.chat.id}"
+            f"FULL ON MOJJ AI Successfully Added For Users In The Chat {message.chat.id}"
         )
 
     elif status == "OFF" or status == "off" or status == "Off":
         lel = await edit_or_reply(message, "`Processing...`")
         Escobar = remove_chat(int(message.chat.id))
         if not Escobar:
-            await lel.edit("Diva AI Was Not Activated In This Chat")
+            await lel.edit("FULL ON MOJJ AI Was Not Activated In This Chat")
             return
         await lel.edit(
-            f"Diva AI Successfully Deactivated For Users In The Chat {message.chat.id}"
+            f"FULL ON MOJJ AI Successfully Deactivated For Users In The Chat {message.chat.id}"
         )
 
     elif status == "EN" or status == "en" or status == "english":
@@ -137,17 +137,17 @@ async def hmm(client, message):
         message.continue_propagation()
     if chat_id in en_chats:
         test = msg
-        test = test.replace("diva", "Aco")
-        test = test.replace("diva", "Aco")
+        test = test.replace("FULL ON MOJJ", "Aco")
+        test = test.replace("FULL ON MOJJ", "Aco")
         response = await lunaQuery(
             test, message.from_user.id if message.from_user else 0
         )
-        response = response.replace("Aco", "Diva")
-        response = response.replace("aco", "Diva")
+        response = response.replace("Aco", "FULL ON MOJJ")
+        response = response.replace("aco", "FULL ON MOJJ")
 
         pro = response
         try:
-            await Diva.send_chat_action(message.chat.id, "typing")
+            await FULL ON MOJJ.send_chat_action(message.chat.id, "typing")
             await message.reply_text(pro)
         except CFError:
             return
@@ -195,15 +195,15 @@ async def hmm(client, message):
                 return
         # test = emoji.demojize(test.strip())
 
-        test = test.replace("Diva", "Aco")
-        test = test.replace("Diva", "Aco")
+        test = test.replace("FULL ON MOJJ", "Aco")
+        test = test.replace("FULL ON MOJJ", "Aco")
         response = await lunaQuery(
             test, message.from_user.id if message.from_user else 0
         )
-        response = response.replace("Aco", "Diva")
-        response = response.replace("aco", "Diva")
-        response = response.replace("Luna", "Diva")
-        response = response.replace("luna", "Diva")
+        response = response.replace("Aco", "FULL ON MOJJ")
+        response = response.replace("aco", "FULL ON MOJJ")
+        response = response.replace("Luna", "FULL ON MOJJ")
+        response = response.replace("luna", "FULL ON MOJJ")
         pro = response
         if not "en" in lan and not lan == "":
             try:
@@ -212,7 +212,7 @@ async def hmm(client, message):
             except:
                 return
         try:
-            await Diva.send_chat_action(message.chat.id, "typing")
+            await FULL ON MOJJ.send_chat_action(message.chat.id, "typing")
             await message.reply_text(pro)
         except CFError:
             return
@@ -269,12 +269,12 @@ async def inuka(client, message):
     # test = emoji.demojize(test.strip())
 
     # Kang with the credits bitches @InukaASiTH
-    test = test.replace("Diva", "Aco")
-    test = test.replace("Diva", "Aco")
+    test = test.replace("FULL ON MOJJ", "Aco")
+    test = test.replace("FULL ON MOJJ", "Aco")
 
     response = await lunaQuery(test, message.from_user.id if message.from_user else 0)
-    response = response.replace("Aco", "Diva")
-    response = response.replace("aco", "Diva")
+    response = response.replace("Aco", "FULL ON MOJJ")
+    response = response.replace("aco", "FULL ON MOJJ")
 
     pro = response
     if not "en" in lan and not lan == "":
@@ -288,7 +288,7 @@ async def inuka(client, message):
 
 
 @diva.on_message(
-    filters.regex("Diva|Diva|Diva|Diva|Diva")
+    filters.regex("FULL ON MOJJ|Diva|Diva|Diva|Diva")
     & ~filters.bot
     & ~filters.via_bot
     & ~filters.forwarded
@@ -343,11 +343,11 @@ async def inuka(client, message):
 
     # test = emoji.demojize(test.strip())
 
-    test = test.replace("diva", "Aco")
-    test = test.replace("Diva", "Aco")
+    test = test.replace("FULL ON MOJJ", "Aco")
+    test = test.replace("FULL ON MOJJ", "Aco")
     response = await lunaQuery(test, message.from_user.id if message.from_user else 0)
-    response = response.replace("Aco", "Diva")
-    response = response.replace("aco", "Diva")
+    response = response.replace("Aco", "FULL ON MOJJ")
+    response = response.replace("aco", "FULL ON MOJJ")
 
     pro = response
     if not "en" in lan and not lan == "":
@@ -357,7 +357,7 @@ async def inuka(client, message):
         except Exception:
             return
     try:
-        await Diva.send_chat_action(message.chat.id, "typing")
+        await FULL ON MOJJ.send_chat_action(message.chat.id, "typing")
         await message.reply_text(pro)
     except CFError:
         return
@@ -372,7 +372,7 @@ Diva AI 1.0 IS THE ONLY AI SYSTEM WHICH CAN DETECT & REPLY UPTO 200 LANGUAGES
  
  
 <b> Assistant </b>
- - /ask [question]: Ask question from Diva
+ - /ask [question]: Ask question from FULL ON MOJJ
  - /ask [reply to voice note]: Get voice reply
  
 """
