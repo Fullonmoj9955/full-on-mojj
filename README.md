@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="https://telegra.ph/file/dac56ba4d9f84aff89a6c.jpg">
+  <img src="https://telegra.ph/file/a678169e20c57c3cbb374.jpg">
 </p>
 
-<h1 align="center"><b> Diva </b></h1>
+<h1 align="center"><b> Fullonmojj </b></h1>
 
 <h4 align="center">A Powerful, Smart And Simple Group Manager <br> ... Written with AioGram , Pyrogram and Telethon...</h4>
 <p align='center'>
@@ -12,7 +12,7 @@
 
 <p align="center"><a href="https://t.me/Diva1bot"><img src="(https://telegra.ph/file/73337f3406d18b80a2683.jpg)" width="400"></a></p>
 
-## Available on Telegram as [@Diva1bot](https://t.me/Diva1bot)
+## Available on Telegram as [@FULLONMOJJ_BOT](https://t.me/FULLONMOJJ_BOT)
 
 # ❤️ Support
 <a href="https://t.me/TheXCodeTeam"><img src="https://img.shields.io/badge/Join-Telegram%20Channel-red.svg?logo=Telegram"></a>
