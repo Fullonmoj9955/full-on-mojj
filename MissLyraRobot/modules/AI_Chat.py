@@ -27,11 +27,11 @@ import aiohttp
 from googletrans import Translator as google_translator
 from pyrogram import filters
 
-from FULLONMOJJ_BOT import BOT_ID
-from FULLONMOJJ_BOT.ex_plugins.chatbot import add_chat, get_session, remove_chat
-from FULLONMOJJ_BOT.function.inlinehelper import arq
-from FULLONMOJJ_BOT.function.pluginhelpers import admins_only, edit_or_reply
-from FULLONMOJJ_BOT.services.pyrogram import pbot as Diva
+from MissLyraRobot import BOT_ID
+from MissLyraRobot.ex_plugins.chatbot import add_chat, get_session, remove_chat
+from MissLyraRobot.function.inlinehelper import arq
+from MissLyraRobot.function.pluginhelpers import admins_only, edit_or_reply
+from MissLyraRobot.services.pyrogram import pbot as Diva
 
 translator = google_translator()
 
