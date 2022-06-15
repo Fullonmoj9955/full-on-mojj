@@ -202,8 +202,8 @@ async def hmm(client, message):
         )
         response = response.replace("Aco", "Lyra")
         response = response.replace("aco", "lyra")
-        response = response.replace("Luna", "lyra")
-        response = response.replace("luna", "lyra")
+        response = response.replace("Luna", "Lyra")
+        response = response.replace("luna", "Lyra")
         pro = response
         if not "en" in lan and not lan == "":
             try:
@@ -281,14 +281,14 @@ async def inuka(client, message):
         pro = translator.translate(pro, dest=lan)
         pro = pro.text
     try:
-        await Diva.send_chat_action(message.chat.id, "typing")
+        await lyra.send_chat_action(message.chat.id, "typing")
         await message.reply_text(pro)
     except CFError:
         return
 
 
 @lyra.on_message(
-    filters.regex("lyra|lyra|lyra|lyra|lyra")
+    filters.regex("Lyra|lyra|Lyra|lyra|Lyra")
     & ~filters.bot
     & ~filters.via_bot
     & ~filters.forwarded
@@ -343,11 +343,11 @@ async def inuka(client, message):
 
     # test = emoji.demojize(test.strip())
 
-    test = test.replace("Lyra", "Aco")
     test = test.replace("lyra", "Aco")
+    test = test.replace("Lyra", "Aco")
     response = await lunaQuery(test, message.from_user.id if message.from_user else 0)
-    response = response.replace("Aco", "lyra")
-    response = response.replace("aco", "lyra")
+    response = response.replace("Aco", "Lyra")
+    response = response.replace("aco", "Lyra")
 
     pro = response
     if not "en" in lan and not lan == "":
