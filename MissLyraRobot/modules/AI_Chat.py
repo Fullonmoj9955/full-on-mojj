@@ -82,20 +82,20 @@ async def hmm(_, message):
         lel = await edit_or_reply(message, "`Processing...`")
         lol = add_chat(int(message.chat.id))
         if not lol:
-            await lel.edit("Full ON MOJJ AI Already Activated In This Chat")
+            await lel.edit("Lyra AI Already Activated In This Chat")
             return
         await lel.edit(
-            f"FULL ON MOJJ AI Successfully Added For Users In The Chat {message.chat.id}"
+            f"Lyra AI Successfully Added For Users In The Chat {message.chat.id}"
         )
 
     elif status == "OFF" or status == "off" or status == "Off":
         lel = await edit_or_reply(message, "`Processing...`")
         Escobar = remove_chat(int(message.chat.id))
         if not Escobar:
-            await lel.edit("FULL ON MOJJ AI Was Not Activated In This Chat")
+            await lel.edit("Lyra AI Was Not Activated In This Chat")
             return
         await lel.edit(
-            f"FULL ON MOJJ AI Successfully Deactivated For Users In The Chat {message.chat.id}"
+            f"Lyra AI Successfully Deactivated For Users In The Chat {message.chat.id}"
         )
 
     elif status == "EN" or status == "en" or status == "english":
@@ -201,7 +201,7 @@ async def hmm(client, message):
             test, message.from_user.id if message.from_user else 0
         )
         response = response.replace("Aco", "Lyra")
-        response = response.replace("aco", "lyra")
+        response = response.replace("aco", "Lyra")
         response = response.replace("Luna", "Lyra")
         response = response.replace("luna", "Lyra")
         pro = response
