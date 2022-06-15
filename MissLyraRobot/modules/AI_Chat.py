@@ -60,17 +60,17 @@ async def fetch(url):
         return
 
 
-MissLyraRobot_chats = []
+lyra_chats = []
 en_chats = []
 # AI Chat (C) 2020-2021 by @InukaAsith
 
 
-@fullonmojj.on_message(
+@lyra.on_message(
     filters.command("chatbot") & ~filters.edited & ~filters.bot & ~filters.private
 )
 @admins_only
 async def hmm(_, message):
-    global fullonmojj_chats
+    global lyra_chats
     if len(message.command) != 2:
         await message.reply_text(
             "I only recognize `/chatbot on` and /chatbot `off only`"
@@ -111,7 +111,7 @@ async def hmm(_, message):
         )
 
 
-@diva.on_message(
+@lyra.on_message(
     filters.text
     & filters.reply
     & ~filters.bot
@@ -137,13 +137,13 @@ async def hmm(client, message):
         message.continue_propagation()
     if chat_id in en_chats:
         test = msg
-        test = test.replace("FULL ON MOJJ", "Aco")
-        test = test.replace("FULL ON MOJJ", "Aco")
+        test = test.replace("lyra", "Aco")
+        test = test.replace("lyra", "Aco")
         response = await lunaQuery(
             test, message.from_user.id if message.from_user else 0
         )
-        response = response.replace("Aco", "FULL ON MOJJ")
-        response = response.replace("aco", "FULL ON MOJJ")
+        response = response.replace("Aco", "lyra")
+        response = response.replace("aco", "lyra")
 
         pro = response
         try:
@@ -195,15 +195,15 @@ async def hmm(client, message):
                 return
         # test = emoji.demojize(test.strip())
 
-        test = test.replace("FULL ON MOJJ", "Aco")
-        test = test.replace("FULL ON MOJJ", "Aco")
+        test = test.replace("lyra", "Aco")
+        test = test.replace("lyra", "Aco")
         response = await lunaQuery(
             test, message.from_user.id if message.from_user else 0
         )
-        response = response.replace("Aco", "FULL ON MOJJ")
-        response = response.replace("aco", "FULL ON MOJJ")
-        response = response.replace("Luna", "FULL ON MOJJ")
-        response = response.replace("luna", "FULL ON MOJJ")
+        response = response.replace("Aco", "lyra")
+        response = response.replace("aco", "lyra")
+        response = response.replace("Luna", "lyra")
+        response = response.replace("luna", "lyra")
         pro = response
         if not "en" in lan and not lan == "":
             try:
@@ -218,7 +218,7 @@ async def hmm(client, message):
             return
 
 
-@diva.on_message(
+@lyra.on_message(
     filters.text & filters.private & ~filters.edited & filters.reply & ~filters.bot
 )
 async def inuka(client, message):
@@ -269,12 +269,12 @@ async def inuka(client, message):
     # test = emoji.demojize(test.strip())
 
     # Kang with the credits bitches @InukaASiTH
-    test = test.replace("FULL ON MOJJ", "Aco")
-    test = test.replace("FULL ON MOJJ", "Aco")
+    test = test.replace("lyra", "Aco")
+    test = test.replace("lyra", "Aco")
 
     response = await lunaQuery(test, message.from_user.id if message.from_user else 0)
-    response = response.replace("Aco", "FULL ON MOJJ")
-    response = response.replace("aco", "FULL ON MOJJ")
+    response = response.replace("Aco", "lyra")
+    response = response.replace("aco", "lyra")
 
     pro = response
     if not "en" in lan and not lan == "":
@@ -287,8 +287,8 @@ async def inuka(client, message):
         return
 
 
-@diva.on_message(
-    filters.regex("FULL ON MOJJ|Diva|Diva|Diva|Diva")
+@lyra.on_message(
+    filters.regex("lyra|lyra|lyra|lyra|lyra")
     & ~filters.bot
     & ~filters.via_bot
     & ~filters.forwarded
@@ -343,11 +343,11 @@ async def inuka(client, message):
 
     # test = emoji.demojize(test.strip())
 
-    test = test.replace("FULL ON MOJJ", "Aco")
-    test = test.replace("FULL ON MOJJ", "Aco")
+    test = test.replace("lyra", "Aco")
+    test = test.replace("lyra", "Aco")
     response = await lunaQuery(test, message.from_user.id if message.from_user else 0)
-    response = response.replace("Aco", "FULL ON MOJJ")
-    response = response.replace("aco", "FULL ON MOJJ")
+    response = response.replace("Aco", "lyra")
+    response = response.replace("aco", "lyra")
 
     pro = response
     if not "en" in lan and not lan == "":
