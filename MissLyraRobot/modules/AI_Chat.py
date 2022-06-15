@@ -31,7 +31,7 @@ from MissLyraRobot import BOT_ID
 from MissLyraRobot.ex_plugins.chatbot import add_chat, get_session, remove_chat
 from MissLyraRobot.function.inlinehelper import arq
 from MissLyraRobot.function.pluginhelpers import admins_only, edit_or_reply
-from MissLyraRobot.services.pyrogram import pbot as Diva
+from MissLyraRobot.services.pyrogram import pbot as Lyra
 
 translator = google_translator()
 
@@ -60,7 +60,7 @@ async def fetch(url):
         return
 
 
-Fullonmojj_chats = []
+MissLyraRobot_chats = []
 en_chats = []
 # AI Chat (C) 2020-2021 by @InukaAsith
 
