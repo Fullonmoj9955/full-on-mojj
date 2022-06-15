@@ -147,7 +147,7 @@ async def hmm(client, message):
 
         pro = response
         try:
-            await FULL ON MOJJ.send_chat_action(message.chat.id, "typing")
+            await lyra.send_chat_action(message.chat.id, "typing")
             await message.reply_text(pro)
         except CFError:
             return
@@ -212,7 +212,7 @@ async def hmm(client, message):
             except:
                 return
         try:
-            await FULL ON MOJJ.send_chat_action(message.chat.id, "typing")
+            await lyra.send_chat_action(message.chat.id, "typing")
             await message.reply_text(pro)
         except CFError:
             return
@@ -269,7 +269,7 @@ async def inuka(client, message):
     # test = emoji.demojize(test.strip())
 
     # Kang with the credits bitches @InukaASiTH
-    test = test.replace("lyra", "Aco")
+    test = test.replace("fullonmojj", "Aco")
     test = test.replace("lyra", "Aco")
 
     response = await lunaQuery(test, message.from_user.id if message.from_user else 0)
@@ -357,7 +357,7 @@ async def inuka(client, message):
         except Exception:
             return
     try:
-        await FULL ON MOJJ.send_chat_action(message.chat.id, "typing")
+        await lyra.send_chat_action(message.chat.id, "typing")
         await message.reply_text(pro)
     except CFError:
         return
