@@ -142,8 +142,8 @@ async def hmm(client, message):
         response = await lunaQuery(
             test, message.from_user.id if message.from_user else 0
         )
-        response = response.replace("Aco", "lyra")
-        response = response.replace("aco", "lyra")
+        response = response.replace("Aco", "Lyra")
+        response = response.replace("aco", "Lyra")
 
         pro = response
         try:
@@ -200,7 +200,7 @@ async def hmm(client, message):
         response = await lunaQuery(
             test, message.from_user.id if message.from_user else 0
         )
-        response = response.replace("Aco", "lyra")
+        response = response.replace("Aco", "Lyra")
         response = response.replace("aco", "lyra")
         response = response.replace("Luna", "lyra")
         response = response.replace("luna", "lyra")
@@ -269,11 +269,11 @@ async def inuka(client, message):
     # test = emoji.demojize(test.strip())
 
     # Kang with the credits bitches @InukaASiTH
-    test = test.replace("fullonmojj", "Aco")
     test = test.replace("lyra", "Aco")
+    test = test.replace("Lyra", "Aco")
 
     response = await lunaQuery(test, message.from_user.id if message.from_user else 0)
-    response = response.replace("Aco", "lyra")
+    response = response.replace("Aco", "Lyra")
     response = response.replace("aco", "lyra")
 
     pro = response
@@ -343,7 +343,7 @@ async def inuka(client, message):
 
     # test = emoji.demojize(test.strip())
 
-    test = test.replace("lyra", "Aco")
+    test = test.replace("Lyra", "Aco")
     test = test.replace("lyra", "Aco")
     response = await lunaQuery(test, message.from_user.id if message.from_user else 0)
     response = response.replace("Aco", "lyra")
@@ -365,7 +365,7 @@ async def inuka(client, message):
 
 __help__ = """
 <b> Chatbot </b>
-Diva AI 1.0 IS THE ONLY AI SYSTEM WHICH CAN DETECT & REPLY UPTO 200 LANGUAGES
+lyra AI 1.0 IS THE ONLY AI SYSTEM WHICH CAN DETECT & REPLY UPTO 200 LANGUAGES
 
  - /chatbot [ON/OFF]: Enables and disables AI Chat mode (EXCLUSIVE)
  - /chatbot EN : Enables English only chatbot
