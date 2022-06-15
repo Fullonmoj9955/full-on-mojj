@@ -111,7 +111,7 @@ async def hmm(_, message):
         )
 
 
-@lyra.on_message(
+@Lyra.on_message(
     filters.text
     & filters.reply
     & ~filters.bot
@@ -218,7 +218,7 @@ async def hmm(client, message):
             return
 
 
-@lyra.on_message(
+@Lyra.on_message(
     filters.text & filters.private & ~filters.edited & filters.reply & ~filters.bot
 )
 async def inuka(client, message):
@@ -287,7 +287,7 @@ async def inuka(client, message):
         return
 
 
-@lyra.on_message(
+@Lyra.on_message(
     filters.regex("Lyra|lyra|Lyra|lyra|Lyra")
     & ~filters.bot
     & ~filters.via_bot
