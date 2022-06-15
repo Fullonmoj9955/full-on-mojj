@@ -65,7 +65,7 @@ en_chats = []
 # AI Chat (C) 2020-2021 by @InukaAsith
 
 
-@lyra.on_message(
+@Lyra.on_message(
     filters.command("chatbot") & ~filters.edited & ~filters.bot & ~filters.private
 )
 @admins_only
